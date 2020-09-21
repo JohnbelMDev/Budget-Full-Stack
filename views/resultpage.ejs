@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+ <!-- <form class="" action="index.html" method="post"> -->
+
+      <% for (var i=0;i< resultpropertie.length; i++){%>
+        <!-- <form class="" action="deleteAction" method="post"> -->
+            <!-- <input type="text" name="deleteInput" value="<%=resultpropertie[i]._id%>"> -->
+            <li>Montly:<%=resultpropertie[i].monthly%>hours</li>
+            <li>weeklyTag<%=resultpropertie[i].weekly%></li>
+            <li>leftover<%=resultpropertie[i].leftover%></li>
+            <li>Date<%=resultpropertie[i].date%></li>
+            <button class="deleteButton"type="submit" value="<%=resultpropertie[i]._id%>" name="button">Delete</button>
+          <!-- </form> -->
+
+      <%}%>
+
+<script type="text/javascript" src="delete.js"></script>
+  </body>
+</html>
