@@ -103,8 +103,11 @@ module.exports = function(app,passport, db) {
     // let totalHour = classHours * clasPropeties;
     // let freetime = 24 - (totalHour + sleep + workPropertie)
     // the list is being created automatically into the database
+
+    // using save to save the collection into the databse
     db.collection('expence').save(
       {
+        // automatically creating the properties and values to the databse
         monthly: monthlyTag,
         weekly: weeklyTag,
         leftover: leftover,

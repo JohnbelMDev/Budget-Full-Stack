@@ -18,6 +18,7 @@ var flash    = require('connect-flash');
 
 var morgan       = require('morgan');
 var cookieParser = require('cookie-parser');
+// for forms
 var bodyParser   = require('body-parser');
 var session      = require('express-session');
 // this is requiring the file
