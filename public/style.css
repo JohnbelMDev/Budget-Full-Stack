@@ -15,3 +15,13 @@ input{
 /* .col-sm-6{
   display: none;
 } */
+.formSection{
+  background-color: green;
+  width: 30%;
+  margin-left: 30%;
+  padding-left: 10%;
+  color: white;
+}
+li{
+  list-style: none;
+}

@@ -7,8 +7,9 @@
   </head>
   <body>
  <!-- <form class="" action="index.html" method="post"> -->
-
-      <% for (var i=0;i< resultpropertie.length; i++){%>
+ <h2>Be wise with your money</h2>
+<section class="formSection">
+        <% for (var i=0;i< resultpropertie.length; i++){%>
         <!-- <form class="" action="deleteAction" method="post"> -->
             <!-- <input type="text" name="deleteInput" value="<%=resultpropertie[i]._id%>"> -->
             <li>Montly:<%=resultpropertie[i].monthly%>hours</li>
@@ -19,6 +20,7 @@
           <!-- </form> -->
 
       <%}%>
+    </section>
 
 <script type="text/javascript" src="delete.js"></script>
   </body>
